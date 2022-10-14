@@ -1,0 +1,87 @@
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: sandybrown;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.Formulario{
+    background-color: white;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align:center ;
+    color: black;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select{
+    font-size: 20px;
+    width: 85%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: rgb(39, 35, 35);
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.button:hover{
+background:black; 
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+@media(min-width:768px)
+{
+    .Formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 80px;
+        border-radius: 4%;
+    }
+}
+.Tabla{
+    margin: auto;
+    width: 800px;
+    margin-top: 100px;
+    
+}
+/*Inicio*/
+.card-body{
+    text-align: left;
+}
+h5{
+    text-align: center;
+}
